@@ -5,7 +5,7 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[]          = {
 
-"AcPlus IBM BIOS:size=9:antialias=true:autohint=true",
+"AcPlus IBM BIOS:size=8:antialias=true:autohint=true",
 
 	"emoji:size=12"
 };
