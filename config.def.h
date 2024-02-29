@@ -3,8 +3,11 @@
 
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
+
+/* "Fira Mono Medium:size=11:antialias=true", */
+/*"PxPlus IBM VGA 8x16:size=11.5:style=Regular:antialias=true", */
 static const char *fonts[]          = {
-	"Fira Mono Medium:size=11:antialias=true",
+	"PxPlus IBM VGA 8x16:size=11.25:style=Regular:antialias=true",
 	"emoji:size=12"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
