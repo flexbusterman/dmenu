@@ -6,10 +6,15 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 
 /* "Fira Mono Medium:size=11:antialias=true", */
 /*"PxPlus IBM VGA 8x16:size=11.5:style=Regular:antialias=true", */
-static const char *fonts[]          = {
-	"PxPlus IBM VGA 8x16:size=11.25:style=Regular:antialias=true",
-	"emoji:size=12"
+
+static const char *fonts[]          = { "Fira Mono Medium:size=11:antialias=true",
+"emoji:size=12"
 };
+
+// static const char *fonts[]          = {
+// 	"PxPlus IBM VGA 8x16:size=11.25:style=Regular:antialias=true",
+// 	"emoji:size=12"
+// };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
