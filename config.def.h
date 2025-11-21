@@ -8,7 +8,7 @@ static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't us
 /* "Fira Mono Medium:size=11:antialias=true", */
 /*"PxPlus IBM VGA 8x16:size=11.5:style=Regular:antialias=true", */
 
-static const char *fonts[]          = { "Fira Mono Medium:size=12:antialias=true",
+static const char *fonts[]          = { "BigBlueTerm437 Nerd Font Mono:size=9:antialias=true",
 "emoji:size=12"
 };
 
