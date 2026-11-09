@@ -1,0 +1,7 @@
+CompileFlags:
+  Add: [-xc, -std=c99]
+Diagnostics:
+  MissingIncludes: None
+  UnusedIncludes: None
+Completion:
+  HeaderInsertion: Never

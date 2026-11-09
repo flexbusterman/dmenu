@@ -1,2 +1,4 @@
-.dot.git
-.dot.git
+*.o
+dmenu
+dmenu_*
+stest

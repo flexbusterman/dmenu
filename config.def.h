@@ -18,14 +18,17 @@ static const char *fonts[] = {
 // };
 static const char *prompt =
     NULL; /* -p  option; prompt to the left of input field */
+          // clang-format off
 static const char *colors[SchemeLast][2] = {
     /*     fg         bg       */
     // [SchemeNorm] = { "#f8f8f2", "#282a36" },
     [SchemeNorm] = {"#f8f8f2", "#000000"},
     // [SchemeSel] = {"#f8f8f2", "#6272a4"},
+    // [SchemeSel] = {"#f8f8f2", "#8a0303"},
     [SchemeSel] = {"#f8f8f2", "#005577"},
     // [SchemeSel] = {"#f8f8f2", "#0000fa"},
-    [SchemeOut] = {"#000000", "#00ffff"},
+    // [SchemeOut] = {"#000000", "#ff4d4d"},
+    [SchemeOut] = {"#000000", "#005577"},
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines = 0;
